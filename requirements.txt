@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+deepface
+opencv-python
+numpy
+pillow
+python-multipart
+tensorflow-macos; platform_system == "Darwin"
+tensorflow-metal; platform_system == "Darwin"
+tensorflow; platform_system != "Darwin"
